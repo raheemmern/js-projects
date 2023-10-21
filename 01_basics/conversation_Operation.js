@@ -29,3 +29,40 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ************Operations************ //
+
+let value = 3
+let negValue = -value
+console.log(negValue); // output => -3
+
+console.log(2+2); // 2 + 2 => 4 to plus a value
+console.log(2-2); // 2 - 2 => 0 to minus a value
+console.log(2*2); // 2 * 2 => 4 to multiply a vlue
+console.log(2**2); // 2 ** 2 => to get  the power of 2
+console.log(2/2); // 2 / 2 => to divide the value
+console.log(2%2); // 2 % 2  => to get the remainder value
+
+let str1 = Hello"
+let str2 = "Raheem"
+let str3 = str1 + str2
+console.log(str3); // output is Hello Raheem
+
+console.log("1" + 2); // output is gonna be 12 it didnot contatinate as one is a string and other is a number
+console.log(1 + "2"); // output is gonna be 12 it didnot contatinate as one is a number and other is a string
+console.log("1" + 2 + 2); // output is 122 it took all as string
+console.log(1 + 2 + "2"); /* output is 32 because the code always gets excuted from left to right
+ so it add 1 into 2 and then execute 2 as string */
+ 
+console.log(+true); // output is 1
+console.log(+""); // output is 0
+
+let num1, num2 , num3
+
+num1 = num2 = num3 = 2+2 // do not write these types of tricky codes always write clean and easy to read code
+
+let gameCounter = 100
+gameCounter++; // post fix operator
+++gameCounter; // pre fix operator
+console.log(gameCounter); // output is gonna be 101 because when you use ++ it adds up 1 to your current value same goes with minus
+
