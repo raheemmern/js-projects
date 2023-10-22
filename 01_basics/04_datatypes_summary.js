@@ -48,3 +48,40 @@ const myFunction = function (){
 
 // read the documentation to check what data type you will get in each command 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++ Memory Types ++++++++++++++ //
+
+// Stack (Primitive) , Heap (Non-Primitive/Reference)
+
+// Stack Memory Type Example
+
+let myYoutubeName = "Abdul Raheem";
+
+let anOtherYoutubeName = myYoutubeName ;
+
+anOtherYoutubeName = "Chai Or Code" ;
+
+console.log(myYoutubeName); // output is Abdul Raheem
+console.log(anOtherYoutubeName); // output is Chai Or Code  it is because the stack memory gives you a copy of original file
+// when you make changes to a new variable it doesnot effect the original value unlike Heap memory
+
+// Heap Memory Type Example
+
+let userOne = {
+    email : "raheemmern@gmail.com",
+    name : "Raheem"
+} // this is an object
+
+console.log(userOne); //output is the same
+
+let userTwo = userOne
+
+userTwo.email = "raheestack@gmail.com"  // thats how you access the properties in an ovject by typing 
+// the name of variable.property like email,name 
+
+// now here the real value of userone email that is "raheemmern@gmail.com" is gonna change as its Heap memory type 
+// so the changes will reflect upon the real file 
+
+console.log(userOne.email); // output of email is changed now as we can have changed the value of it 
+console.log(userTwo.email); // output is gonna be changed and also the original file
