@@ -12,7 +12,12 @@ const jsUser = {
     email : "raheemmern@gmail.com",
     isLoggedIn : false,
     lastLoginDays : ["Monday", "Tuesday"]
-}  // this is how you can declare an object you can add string,numbers,booleans,array,another object inside object
+}  
+
+// this is how you can declare an object you can add string,numbers,booleans,array,another object inside object
+
+// So the left side is the keys like name, "Full Name", and the right side are the values of those keys like "Abdul Raheem"
+
 
 // How to access a object there are two ways mentioned down below
 
