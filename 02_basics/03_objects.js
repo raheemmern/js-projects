@@ -1,5 +1,5 @@
-// Singleton
-// Object.create
+// Singleton // Literals Declaration Se Singleton Nhi Banta Hy // Constructor sy agr bany to singleton bany ga // interview quest !important
+// Object.create   // is a constructor method and is used to make singleton objects
 
 // Object Literals
 const mySym = Symbol("key1")
