@@ -52,21 +52,33 @@ console.log(userLoginMessage("Abdul Raheem")); // out is gonna be Abdul Raheem J
 console.log(userLoginMessage()); // if you didnot pass any value the output gonna be undefined just logged in it doesnot show null instead it shows undefined because it didnot got defined
 
 
+function calculateCartPrice (...num1){ // this ... is called rest or spread operator it depends on the condition where we are using it and it returns the value in a an array
+    return num1
+}
+console.log(calculateCartPrice(200 , 300 ,500 ,10000));
 
+const user = {
+    username : "cop" ,
+    price : 500
+}
 
+function objectHandle (anyusername){
+    console.log(`Username is ${anyusername.username} Price Is ${anyusername.price}`);
+}
+objectHandle(user) // you have to give the argument of the object in this case user to let the function work properly otherwise its gonna show a error
 
-
-
-
-
-
-
-
-
-
-
-
-
+objectHandle(
+    {
+        username : "sam",
+        price : 499
+    }
+) // you can directly pass the object inside the function while executing instead of making it separetly
+const array1 = [ 200 , 400 ,600 , 800 , 1000];
+function array2 (arrayjs){
+    return arrayjs[1]
+};
+console.log(array2(array1)); // thats how you can pass a array value into the function you can do the same and pass it directly or you can do it like this here we are getting the 2nd value from the array that is 400
+console.log(array2([500 , 1000 , 1500])); // this one is a directly passed array inside the argument while executing a function
 
 
 
