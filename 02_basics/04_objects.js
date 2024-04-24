@@ -63,16 +63,30 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// this is how you can de structure a object 
+
+
+const {courseInstructor: instructor} = course  // de structuring an object its pretty easy
 
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+
+// this is how an json file looks like its an object {}
+
+// so in object you have to name the object but in json you just need to put it in {} you can hold it in variable but without variable its goona work perfectly fine
+// and also in json the key is gonna be a string and value also gonna be a string unlike in object where the key doesnot need to be a string
+// numbers can come directly without  being a string and also true false
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+
+// you will get apis in object format most of the time but some time you can get it in the format of array like shown in next example
+
+// json is equal to javascript object notation
 
 [
     {},
