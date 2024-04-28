@@ -28,6 +28,13 @@ for (const key in programming) {
 }
 
 
+// maps are not itterable through for in loops so you will not get an error becuase its not gonna get itterable 
+
+// for objects we are gonna use for in loop
+
+// for arrays we are gonna use for of loop // we can use many more loops on arrays
+
+
 
 
 
