@@ -8,7 +8,7 @@ const coding = ["python" , "cpp" , "java" , "ruby" , "js"]
 // you can access different type of prototypes by writing the variable and then placing . afterwards
 // like this way coding. and there will be lot of suggestions
 
-coding.
+coding
 
 
 
