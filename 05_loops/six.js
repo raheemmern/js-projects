@@ -21,6 +21,44 @@ const newNums2 = myNums.filter( (num) => {
     // you can get the returns without opening the scopes like in the upper example shown there
 } )
 
+const nums3 = []
+
+
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num) // you can do the same by using foreach like you did with filter
+    }
+} )
+
+console.log(newNums);
+
+const books = [
+    { title : "Book one" , genre : "Science", publish : 1970},
+    { title : "Book two" , genre : "History", publish : 1999},
+    { title : "Book three" , genre : "Arts", publish : 2003},
+    { title : "Book four" , genre : "History", publish : 1988},
+    { title : "Book five" , genre : "Science", publish : 2001},
+    { title : "Book six" , genre : "History", publish : 2007},
+    { title : "Book seven" , genre : "Arts", publish : 2004},
+    { title : "Book eight" , genre : "Arts", publish : 2005}
+];
+
+let userBooks = books.filter( (bk) => {return bk.genre === "History"} )
+userBooks = books.filter( (bk) => {
+    return bk.publish >= "2000" && bk.genre === "History"
+
+} )
+console.log(userBooks);
+
+
+
+
+
+
+
+
+
+
 
 
 
