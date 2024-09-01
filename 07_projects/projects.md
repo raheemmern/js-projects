@@ -30,6 +30,7 @@ button.addEventListener('click', function(e){
 });
 ```
 ### Project 2 Solution Code
+
 ``` javascript
 const form = document.querySelector("form")
 
@@ -49,4 +50,14 @@ form.addEventListener("submit", function(e){
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+```
+### Project 3 Solution Code
+
+``` javascript
+const clock = document.getElementById('clock')
+
+setInterval(function () {
+   let date = new Date();
+   clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 ```
