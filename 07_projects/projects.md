@@ -3,7 +3,7 @@
 ## Projects Link 
 [Click Here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
-### Project 1 Solution Code
+### Project 1 Solution Code Color Changer
 ```javascript
 const buttons = document.querySelectorAll(".button");
 const body = document.querySelector("body");
@@ -29,7 +29,7 @@ button.addEventListener('click', function(e){
 })
 });
 ```
-### Project 2 Solution Code
+### Project 2 Solution Code Bmi Generator
 
 ``` javascript
 const form = document.querySelector("form")
@@ -51,7 +51,7 @@ form.addEventListener("submit", function(e){
   }
 });
 ```
-### Project 3 Solution Code
+### Project 3 Solution Code Digital Clock
 
 ``` javascript
 const clock = document.getElementById('clock')
